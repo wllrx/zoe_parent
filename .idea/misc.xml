@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/zoe_base/pom.xml" />
         <option value="$PROJECT_DIR$/zoe_recruit/pom.xml" />
+        <option value="$PROJECT_DIR$/zoe_qa/pom.xml" />
+        <option value="$PROJECT_DIR$/zoe_article/pom.xml" />
+        <option value="$PROJECT_DIR$/zoe_gathering/pom.xml" />
       </list>
     </option>
   </component>

@@ -8,9 +8,9 @@
         <version>1.0</version>
     </parent>
     <groupId>com.x.f</groupId>
-    <artifactId>zoe_recruit</artifactId>
+    <artifactId>zoe_gathering</artifactId>
     <version>0.0.1</version>
-    <name>zoe_recruit</name>
+    <name>zoe_gathering</name>
 
     <dependencies>
         <dependency>
@@ -18,13 +18,12 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
         <dependency>
             <groupId>com.x.f</groupId>
@@ -33,12 +32,10 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
+            <artifactId>spring‐boot‐starter‐data‐redis</artifactId>
         </dependency>
     </dependencies>
+
+
+
 </project>

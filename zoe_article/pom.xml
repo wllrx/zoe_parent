@@ -8,9 +8,9 @@
         <version>1.0</version>
     </parent>
     <groupId>com.x.f</groupId>
-    <artifactId>zoe_recruit</artifactId>
+    <artifactId>zoe_article</artifactId>
     <version>0.0.1</version>
-    <name>zoe_recruit</name>
+    <name>zoe_article</name>
 
     <dependencies>
         <dependency>
@@ -19,9 +19,8 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
-
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -32,13 +31,9 @@
             <version>1.0</version>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
+
 </project>

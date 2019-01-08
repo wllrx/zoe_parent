@@ -7,7 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
+        <module name="zoe_article" />
         <module name="zoe_base" />
+        <module name="zoe_gathering" />
+        <module name="zoe_qa" />
         <module name="zoe_recruit" />
       </profile>
     </annotationProcessing>
@@ -16,7 +19,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
+      <module name="zoe_article" options="-parameters" />
       <module name="zoe_base" options="-parameters" />
+      <module name="zoe_gathering" options="-parameters" />
+      <module name="zoe_qa" options="-parameters" />
       <module name="zoe_recruit" options="-parameters" />
     </option>
   </component>
