@@ -8,11 +8,11 @@ package com.x.f.entity;
  */
 public class StatusCode {
 
-    public static final int OK=2000;//成功
-    public static final int ERROR=2001;//失败
-    public static final int LOGINERROR=2002;//用户名或密码错误
-    public static final int ACCESSRROR=2003;//权限不足
-    public static final int REEMOTERROR=2004;//远程调用失败
-    public static final int REPERROR=2005;//重复操作
+    public static final int OK=20000;//成功
+    public static final int ERROR=20001;//失败
+    public static final int LOGINERROR=20002;//用户名或密码错误
+    public static final int ACCESSRROR=20003;//权限不足
+    public static final int REEMOTERROR=20004;//远程调用失败
+    public static final int REPERROR=20005;//重复操作
 
 }

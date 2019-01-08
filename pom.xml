@@ -9,6 +9,8 @@
     <version>1.0</version>
     <modules>
         <module>common</module>
+        <module>zoe_base</module>
+        <module>zoe_recruit</module>
     </modules>
 
     <packaging>pom</packaging>
