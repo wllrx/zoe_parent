@@ -13,6 +13,8 @@
         <module>zoe_recruit</module>
         <module>zoe_qa</module>
         <module>zoe_article</module>
+        <module>zoe_mongoDemo</module>
+        <module>zoe_spit</module>
     </modules>
 
     <packaging>pom</packaging>
