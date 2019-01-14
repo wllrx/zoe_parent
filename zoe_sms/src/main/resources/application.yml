@@ -1,0 +1,13 @@
+spring:
+  rabbitmq:
+    host: 101.132.110.63
+  application:
+    name: zoe-sms
+server:
+  port: 9009
+aliyun:
+  sms:
+    accessKeyId: LTAIesUV6AfOvvJJ
+      accessKeySecret: cqDJ7zFigoAAL8aUdcMX3w4XNMUPN9
+      template_code: SMS_155570427
+      sign_name: zoe

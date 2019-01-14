@@ -1,0 +1,14 @@
+server:
+  port: 9008
+spring:
+  application:
+    name: zoe-user
+  redis:
+    host: 127.0.0.1
+  rabbitmq:
+    host: 101.132.110.63
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/user?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root

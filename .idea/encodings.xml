@@ -11,6 +11,8 @@
     <file url="file://$PROJECT_DIR$/zoe_rabbitmqDemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zoe_recruit" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zoe_search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zoe_sms" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zoe_spit" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zoe_user" charset="UTF-8" />
   </component>
 </project>

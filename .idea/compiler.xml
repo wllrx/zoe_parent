@@ -15,7 +15,9 @@
         <module name="zoe_rabbitmqDemo" />
         <module name="zoe_recruit" />
         <module name="zoe_search" />
+        <module name="zoe_sms" />
         <module name="zoe_spit" />
+        <module name="zoe_user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
@@ -31,7 +33,9 @@
       <module name="zoe_rabbitmqDemo" options="-parameters" />
       <module name="zoe_recruit" options="-parameters" />
       <module name="zoe_search" options="-parameters" />
+      <module name="zoe_sms" options="-parameters" />
       <module name="zoe_spit" options="-parameters" />
+      <module name="zoe_user" options="-parameters" />
     </option>
   </component>
 </project>
