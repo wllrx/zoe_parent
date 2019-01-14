@@ -15,6 +15,8 @@
         <module>zoe_article</module>
         <module>zoe_mongoDemo</module>
         <module>zoe_spit</module>
+        <module>zoe_search</module>
+        <module>zoe_rabbitmqDemo</module>
     </modules>
 
     <packaging>pom</packaging>
