@@ -50,6 +50,8 @@ public class UserService {
     @Autowired
     private JwtUtil jwtUtil;
 
+
+
     /**
      * 查询全部列表
      * @return
@@ -94,6 +96,7 @@ public class UserService {
 
     /**
      * 增加
+     * 用户注册密码加密
      * @param user
      */
     public void add(User user) {
@@ -199,6 +202,12 @@ public class UserService {
         System.out.println("验证码为："+checkcode);
     }
 
+    /**
+     * 登录  根据用户名和密码查询用户
+     * @param mobile
+     * @param password
+     * @return
+     */
     public User login(String mobile, String password) {
         User user = userDao.findByMobile(mobile);
         if(user!=null && encoder.matches(password, user.getPassword())){

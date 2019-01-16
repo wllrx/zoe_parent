@@ -39,6 +39,11 @@ public class UserController {
         userService.updatefanscountandfollowcount(x, userid, friendid);
     }
 
+    /**
+     * 登录
+     * @param user
+     * @return
+     */
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public Result login(@RequestBody User user){
         user = userService.login(user.getMobile(), user.getPassword());

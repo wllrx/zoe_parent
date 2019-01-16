@@ -92,8 +92,8 @@ public class AdminService {
      * @param admin
      */
     public void add(Admin admin) {
-        admin.setId( idWorker.nextId()+"" );
-        //密码加密
+        admin.setId( idWorker.nextId()+"" );//主键值
+        //密码加密  encoder.encode(admin.getPassword()  -->  加密后的密码
         admin.setPassword(encoder.encode(admin.getPassword()));
         adminDao.save(admin);
     }
