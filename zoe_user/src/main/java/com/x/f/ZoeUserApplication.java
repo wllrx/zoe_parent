@@ -1,6 +1,7 @@
 package com.x.f;
 
 import com.x.f.util.IdWorker;
+import com.x.f.util.JwtUtil;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -21,5 +22,10 @@ public class ZoeUserApplication {
     @Bean
     public BCryptPasswordEncoder bCryptPasswordEncoder(){
         return new BCryptPasswordEncoder();
+    }
+
+    @Bean
+    public JwtUtil jwtUtil(){
+        return new JwtUtil();
     }
 }

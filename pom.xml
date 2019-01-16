@@ -19,6 +19,7 @@
         <module>zoe_rabbitmqDemo</module>
         <module>zoe_user</module>
         <module>zoe_sms</module>
+        <module>zoe_jjwt</module>
     </modules>
 
     <packaging>pom</packaging>

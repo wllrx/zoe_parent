@@ -4,14 +4,13 @@ import com.x.f.interceptor.JwtInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 
 /**
  * @author zoe
- * @date 2019-01-08
+ * @date 2019-01-16
  */
 @Configuration
-public class InterceptorConfig extends WebMvcConfigurationSupport {
+public class InterceptorConfig {
     @Autowired
     private JwtInterceptor jwtInterceptor;
     protected void addInterceptors(InterceptorRegistry registry) {

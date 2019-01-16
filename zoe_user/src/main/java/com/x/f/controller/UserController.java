@@ -153,6 +153,7 @@ public class UserController {
      */
     @RequestMapping(value="/{id}",method= RequestMethod.DELETE)
     public Result delete(@PathVariable String id ){
+
         userService.deleteById(id);
         return new Result(true,StatusCode.OK,"删除成功");
     }

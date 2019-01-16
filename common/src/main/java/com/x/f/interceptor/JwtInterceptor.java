@@ -10,11 +10,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
+ * 拦截器
  * @author zoe
- * @date 2019-01-08
+ * @date 2019-01-16
  */
 @Component
-public class JwtInterceptor implements HandlerInterceptor {
+public class JwtInterceptor implements HandlerInterceptor{
     @Autowired
     private JwtUtil jwtUtil;
 
